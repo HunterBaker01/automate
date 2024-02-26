@@ -36,5 +36,3 @@ def backupToZip(folder):
             backupZip.write(os.path.join(foldername, filename))
     backupZip.close()
     print('Done.')
-
-backupToZip('quizzes')
